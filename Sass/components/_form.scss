@@ -1,0 +1,67 @@
+.purchase{
+  position: relative;
+  width: 60%;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.search{
+  display: grid;
+  margin: auto;
+
+  &__label{
+    font-size: 2rem;
+  }
+
+  &__input{
+    padding: 1rem;
+    height: 5rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+
+  &__btn{
+    font-size: 2rem;
+    height: 4rem;
+  }
+}
+
+.add {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  column-gap: 2rem;
+  margin-top: 1rem;
+
+  .items {
+      display: grid;
+
+    &__label {
+      font-size: 2rem;
+    }
+
+    &__info {
+      padding: 1rem;
+      height: 4rem;
+      width: 100%;
+      margin-bottom: 2rem;
+      font-size: 2.5rem;
+    }
+  }
+}
+
+.extra{
+  display: grid;
+
+  &__label {
+    font-size: 2rem;
+  }
+
+  &__info {
+    padding: 1rem;
+    height: 4rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+}

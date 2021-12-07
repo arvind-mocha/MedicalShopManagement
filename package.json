@@ -1,0 +1,15 @@
+{
+  "name": "medicalshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass Sass/main.scss src/main/webapp/Static/Css/main.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.24.0",
+    "node-sass": "^6.0.1"
+  }
+}

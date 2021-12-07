@@ -1,0 +1,36 @@
+.operations{
+  width: 80%;
+  margin: auto;
+  margin-top: 5rem;
+  background: #348f50;
+  background: -webkit-linear-gradient(to right, #348f50, #56b4d3);
+  background: linear-gradient(to right, #348f50, #56b4d3);
+  background-size: cover;
+  padding: 10rem;
+  border-radius: 1rem;
+  box-shadow: -2rem 2rem 1.5rem rgba(black,.5);
+
+  &__users{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    justify-items: center;
+    align-items: center;
+    column-gap: 5rem;
+
+    &--btns{
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      color: white;
+    }
+
+    &--title{
+      transform: scaleX(2);
+      font-weight: 900;
+      font-size: 4rem;
+      color: white;
+      width: 0;
+      word-wrap: break-word;
+      writing-mode: bt-rl;
+    }
+  }
+}
